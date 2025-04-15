@@ -1,7 +1,11 @@
 # Discord Backup
 
-[![downloadsBadge](https://img.shields.io/npm/dt/discord-backup?style=for-the-badge)](https://npmjs.com/discord-backup)
-[![versionBadge](https://img.shields.io/npm/v/discord-backup?style=for-the-badge)](https://npmjs.com/discord-backup)
+## Ryoukia Note
+lower memory usage version of the backup bot, EXTREMELY WIP, not very user friendly 
+writes text channels to file repeatedly while create() is running, allowing for much much larger numbers of messages to be backed up.
+sample source file in the description will not work with this version, use the included sample_launch.js as a template.
+
+
 
 **Note**: this module uses recent discordjs features and requires discord.js v13.
 
